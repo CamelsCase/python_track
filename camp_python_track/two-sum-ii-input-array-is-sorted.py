@@ -9,3 +9,5 @@ class Solution:
                 start+=1
             else:
                 end-=1
+        #this code uses the two pointer technique 
+        #the time complexity for this code is O(N) and the space complexity is O(1)
