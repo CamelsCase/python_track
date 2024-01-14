@@ -3,7 +3,6 @@ class Solution:
         p1 = 0
         p2 = 0
         prev = None
-        prev = None
         while p1<len(name) and p2<len(typed) :
             if name[p1]==typed[p2]:
                 prev = name[p1]
@@ -17,3 +16,5 @@ class Solution:
         while p2<len(typed) and  prev==typed[p2]:
             p2+=1
         return True if p1==len(name) and p2==len(typed) else False
+        #time  ===> o(n**2)
+        #space ===> o(1)
